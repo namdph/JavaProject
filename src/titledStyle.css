@@ -1,0 +1,55 @@
+.titled-pane 
+{
+-fx-text-fill: white;
+-fx-font-family: "Proxima Nova";
+-fx-font-size: 15;
+-fx-font-weight: bold;
+}
+.titled-pane:focused 
+{
+-fx-text-fill: white;
+-fx-font-family: "Proxima Nova";
+-fx-font-size: 15;
+-fx-font-weight: bold;
+}
+.titled-pane > .title 
+{
+-fx-background-color: transparent;
+-fx-background-insets: 0, 1, 2;
+-fx-opacity: 0.6;
+}
+
+.titled-pane:focused > .title 
+{
+-fx-color: -fx-focus-color;
+-fx-opacity: 1;
+}
+
+.titled-pane > .title > .arrow-button 
+{
+-fx-background-color: transparent;
+-fx-background-insets: 0;
+-fx-background-radius: 0;
+-fx-padding: 0.0em 0.25em 0.0em 0.0em; /* 0 3 0 0 */
+}
+
+.titled-pane > .title > .arrow-button .arrow 
+{
+-fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+}
+
+.titled-pane:collapsed > .title > .arrow-button .arrow 
+{
+-fx-rotate: -90;
+}
+
+.titled-pane > *.content 
+{
+-fx-background-color: transparent;
+-fx-border-color: transparent;
+ }
+
+.titled-pane:focused > .title > .arrow-button .arrow 
+{
+-fx-background-color: transparent;
+}

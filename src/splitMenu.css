@@ -1,0 +1,36 @@
+.split-menu-button {
+
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-background-insets: 0 0 -1 0, 0;
+    -fx-background-radius: 3, 3;
+    -fx-padding: 0;
+	 -fx-border-radius: 15 15 15 15;
+ 	 -fx-background-radius: 15 15 15 15;
+}
+
+.split-menu-button > .label {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 1 0 1 1, 2 1 2 2;
+    -fx-background-radius: 2 0 0 2, 1 0 0 1;
+    -fx-padding: 0.333333em 0.667em 0.333333em 0.667em; /* 4 8 4 8 */
+     -fx-border-radius: 15 0 0 15;
+ 	 -fx-background-radius: 15 0 0 15;
+ 	 -fx-font-size: 12;
+	-fx-font-weight: bold;
+}
+
+.split-menu-button > .arrow-button {
+
+    -fx-background-color: transparent;
+    -fx-background-insets: 1, 2;
+    -fx-border-radius: 0 15 15 0;
+ 	 -fx-background-radius: 0 15 15 0;
+    -fx-padding: 0.5em 0.667em 0.5em 0.667em; /* 6 8 6 8 */
+
+}
+
+
+
+   

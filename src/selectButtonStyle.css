@@ -1,0 +1,30 @@
+.button:hover{
+	-fx-background-color: #121212;
+	 -fx-alignment: baseline-left; 
+	 -fx-font-family: "Proxima Nova";
+	  -fx-font-size: 18; 
+	  -fx-text-fill: white; 
+	  -fx-opacity: 1;
+	  -fx-font-weight: bold;
+}
+.button
+{
+-fx-background-color: #121212;	
+-fx-text-fill: white;
+-fx-font-family: "Proxima Nova";
+-fx-font-size: 17;
+-fx-font-weight: bold;
+-fx-opacity: 0.6;
+-fx-alignment: baseline-left;
+}
+.button:focused 
+{
+-fx-background-color: #121212;
+-fx-text-fill: white;
+-fx-font-family: "Proxima Nova";
+-fx-font-size: 17;
+-fx-font-weight: bold;
+-fx-opacity: 1;
+-fx-alignment: baseline-left;
+}
+

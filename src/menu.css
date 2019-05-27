@@ -1,0 +1,7 @@
+.root{
+	-fx-background-image: url("/miniProject/main/Icons/menu.jpg");
+    -fx-background-size: cover;  
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+	
+}

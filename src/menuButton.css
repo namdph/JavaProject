@@ -1,0 +1,23 @@
+.button{
+	-fx-text-fill: #121212;
+	-fx-background-color: white;
+	 -fx-border-radius: 30	30	30	30;
+ 	 -fx-background-radius: 30	30	30	30;
+ 	 -fx-font-size: 20;
+	-fx-font-weight: bold;
+	-fx-opacity: 0.5;
+	-fx-scale-x: 0.9;
+	-fx-scale-y: 0.9
+}
+
+.button:hover{
+	-fx-text-fill: #121212;
+	-fx-background-color: white;
+	 -fx-border-radius:	30	30	30	30;
+ 	 -fx-background-radius: 30	30	30	30;
+ 	 -fx-font-size: 20;
+	-fx-font-weight: bold;
+	-fx-opacity: 1;
+	-fx-scale-x: 1;
+	-fx-scale-y: 1;
+}
